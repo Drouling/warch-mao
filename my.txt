@@ -133,8 +133,8 @@
 	      "quickSearch":1,
 	      "filterable":1,
 	      "ext":"https://ghproxy.com/https://github.com/Cr-cm/1/blob/main/js/token.txt$$$yingshi$$$abcd1234"
-      },
-
+      }
+]
 "parses":[
 {"name":"聚合1","type":3,"url":"Demo"},
 {"name":"聚合0","type":3,"url":"Web"},
