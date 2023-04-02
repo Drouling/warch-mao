@@ -1,10 +1,18 @@
 {
 "spider":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;2427acdd749c3d413e3c9d16d4bebce3",
-"wallpaper":"http://饭太硬.ga/深色壁纸/api.php",
+
 
 "sites":[
 {"key":"js豆瓣","name":"🅱豆豆┃推荐","type":3,"api":"http://v.tvfan.top:88/tvbox/js/drpy.min.js","ext":"http://v.tvfan.top:88/tvbox/js/drpy.js","searchable": 0,"quickSearch": 0,"filterable": 0},
-{"key":"直播","name":"📡电视┃直播","type":3,"playerType":1,"api":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/js/直播转点播.js","ext":"Box醒人室$https://agit.ai/fantaiying/fty/raw/branch/master/live.txt#影视范精选$https://agit.ai/fantaiying/fmm/raw/branch/main/tv/m3u/global.m3u&&&https://api.caonm.net/api/mc/"},
+ {
+             "key": "T4直播转点播",
+             "name": "📺︎┃电视直播",
+             "type": 4,
+             "api": "http://120.53.102.254/live?url=https://ghproxy.com/https://raw.githubusercontent.com/Cr-cm/1/main/tvlive.txt",
+             "searchable": 1,
+             "quickSearch": 1,
+             "filterable": 1
+       },
 
 
 {"key":"csp_AppTT","name":"🐰图图┃App","type":3,"api":"csp_AppTT","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"tv$$$dlJYWXFYbkgqbmlsU1JLIyNkMFZ0OE1JdzRJQW1yY3I=$$$Y2hpbkpaUzdiKnpYbzZzWQ==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ=="},
@@ -44,6 +52,14 @@
 {"key":"csp_XBPQ吼吼影视","name":"🎞️┃吼吼影视","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://52bsj.vip:81/api/v3/file/get/63304/%E5%90%BC%E5%90%BC%28xBPQ%29.json?sign=V7Jqm42NGjs5jP8Hn7gqamNtCAMLulk5paVu0cSN7mI%3D%3A0",
 "jar":"http://52bsj.vip:81/api/v3/file/get/61833/xBPQ_1106.jar?sign=OVzxP6WlxeCthygathb2n4nXosg5HkE6NM9vkf3IFVk%3D%3A0"},
 {"key":"csp_棉花影视","name":"☁┃棉花影视(SP)","type":3,"api":"csp_MianHua","m3u8ads":"hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://118.190.144.126","jar":"https://agit.ai/n3rd/N3RD/raw/branch/master/J/lem0315.jar;md5;F23FB89E3FED6208AF828492B1660B68"},
+    {
+	    "key":"阿里影视",
+	    "name":"🥤┃阿里影视┃聚搜",
+	    "type":1,
+	    "api":"http://aliys.cn:90/api.php/provide/vod/",
+	    "searchable":0,
+	    "quickSearch":0
+     },
 
 {"key":"Qtv","name":"🐧腾腾┃解析","type": 3,"api":"csp_Qtv","searchable": 1,"quickSearch": 1,"filterable":1,"changeable":0},
 {"key":"Itv","name":"🥝爱爱┃解析","type":3,"api":"csp_Itv","quickSearch":1,"searchable":1,"filterable":1,"changeable":0},
@@ -54,19 +70,70 @@
 {"key":"csp_Ysj","name":"🎀异界┃动漫","type":3,"api":"csp_Ysj","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Anime1","name":"🐾日本┃动漫","type": 3,"api": "csp_Anime1","searchable": 1,"quickSearch": 1,"filterable": 1},
 
-{"key":"csp_Alist1","name":"🅿Alist┃网盘","type":3,"api":"csp_AList","searchable":1,"quickSearch":0,"filterable":0,"ext":"http://饭太硬.ga/x/json/alist.json"},
-{"key":"csp_Paper","name":"📜纸条┃4K","type":3,"api":"csp_Paper","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
-{"key":"Zhaozy","name":"🐺找资源┃4K","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken$$$自己去注册$$$qq112233"},
-
-
-{"key":"YiSo","name":"😹易搜┃4K","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
-{"key":"PanSou","name":"🦊盘搜┃4K","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
-{"key":"UpYun","name":"😻Up搜┃4K","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
-{"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://ali.饭太硬.ml/alitoken"},
-
-{"key":"ext_live_protocol","name":"导航  http://饭太硬.ga","type":3,"api":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/js/协议.js","searchable": 0,"quickSearch": 0,"ext":"clan://proxy?sourcekey=ext_live_protocol"},
-{"key":"cc","name":"请勿相信视频中任何广告","type":3,"api":"csp_XPath","searchable": 0,"quickSearch": 0,"filterable": 0}
-],
+ {
+	      "key":"csp_AList",
+	      "name":"🅰┃AList网盘",
+	      "type":3,
+	      "api":"csp_AList",
+	      "searchable":1,
+	      "quickSearch":1,
+	      "filterable":1,
+	      "ext":"https://ghproxy.com/https://github.com/Cr-cm/1/blob/main/js/Alist.json",
+	      "jumpDetail":0,
+	      "reversePlay":0,
+	      "enable":1
+      },
+     {
+            "key": "Gitcafe",
+            "name": "📜┃纸条┃4K",
+            "type": 3,
+            "api": "csp_Paper",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://ali.饭太硬.ml/token"
+        },	
+      {
+	      "key":"csp_YiSo",
+	      "name":"🆎┃易搜",
+	      "type":3,
+	      "api":"csp_YiSo",
+	      "searchable":1,
+	      "quickSearch":1,
+	      "filterable":0,
+	      "changeable":0,
+	      "ext":"https://ghproxy.com/https://github.com/Cr-cm/1/blob/main/js/token.txt"
+      },
+      {
+	      "key":"AliPS",
+	      "name":"😽┃盘搜",
+	      "type":3,
+	      "api":"csp_PanSou",
+	      "searchable":1,
+	      "quickSearch":1,
+	      "filterable":1,
+	      "ext":"https://ghproxy.com/https://github.com/Cr-cm/1/blob/main/js/token.txt"
+      },
+      {
+	      "key":"csp_UpYun",
+	      "name":"💽┃Up云搜",
+	      "type":3,
+	      "api":"csp_UpYun",
+	      "searchable":1,
+	      "quickSearch":1,
+	      "filterable":1,
+	      "ext":"https://ghproxy.com/https://github.com/Cr-cm/1/blob/main/js/token.txt"
+      },
+      {
+	      "key":"FindZY",
+	      "name":"🦊┃找资源",
+	      "type":3,
+	      "api":"csp_Zhaozy",
+	      "searchable":1,
+	      "quickSearch":1,
+	      "filterable":1,
+	      "ext":"https://ghproxy.com/https://github.com/Cr-cm/1/blob/main/js/token.txt$$$yingshi$$$abcd1234"
+      },
 
 "parses":[
 {"name":"聚合1","type":3,"url":"Demo"},
